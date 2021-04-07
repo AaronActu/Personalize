@@ -20,18 +20,6 @@ import { IntlProvider } from 'react-intl'
  */
 const HomeScreen = React.lazy(() => import("./screens/Home/Home"))
 
-/*
- * Types definitions
- */
-type AppConfigurationState = {
-    theme: string,
-    lang: string,
-    messages: Record<string, string>
-}
-
-type AppConfigurationAction =
-    | { type: "SWITCH_LANG" | "SWITCH_THEME", payload: string }
-
 const SuspenseFallback = () => (<p>Loading...</p>)
 
 const initAppConfiguration = (): AppConfigurationState => {

@@ -1,7 +1,9 @@
 .theme-light {
     background-color: #F5F5F5;
+    color: #40434E;
 }
 
 .theme-dark {
     background-color: #40434E;
+    color: #F5F5F5;
 }
