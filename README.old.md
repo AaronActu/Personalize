@@ -1,2 +1,0 @@
-# Personalize
-Personal websearch page !
